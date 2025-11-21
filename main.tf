@@ -12,9 +12,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_server" {
-  ami           = "ami-0c55b159cbfafe1f0"   # Amazon Linux 2 AMI example
+  ami           = "ami-0fa3fe0fa7920f68e"   # Amazon Linux 2 AMI example
   instance_type = "t2.micro"
-  key_name      = "my-key"
+  key_name      = "banty"
 
   tags = {
     Name = "Terraform-EC2"
