@@ -17,6 +17,6 @@ resource "aws_instance" "my_server" {
   key_name      = "banty"
 
   tags = {
-    Name = "Terraform-EC1"
+    Name = "Terraform-EC2"
   }
 }
